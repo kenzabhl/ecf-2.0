@@ -1,0 +1,374 @@
+* {
+	box-sizing: border-box;
+}
+body {
+	font-family: 'Montserrat', sans-serif;
+	line-height: 1.6;
+	margin: 0;
+	min-height: 100vh;
+}
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+
+h2,
+h3,
+a {
+	color: black;
+}
+
+a {
+	text-decoration: none;
+}
+
+
+
+.logo {
+	margin: 0;
+	font-size: 1.45em;
+}
+
+.main-nav {
+	margin-top: 5px;
+
+}
+.logo a,
+.main-nav a {
+	padding: 10px 15px;
+	text-transform: uppercase;
+	text-align: center;
+	display: block;
+}
+
+.main-nav a {
+	color: black;
+	font-size: .99em;
+}
+
+.main-nav a:hover {
+	color: red;
+}
+
+
+
+.header {
+	padding-top: .5em;
+	padding-bottom: .5em;
+	border: 1px solid #a2a2a2;
+	background-color: #f4f4f4;
+	-webkit-box-shadow: 0px 0px 14px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 0px 14px 0px rgba(0,0,0,0.75);
+	box-shadow: 0px 0px 14px 0px rgba(0,0,0,0.75);
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+
+
+.bodyConnexion {
+    background-image: url(../Image/stylesowens.jpg) ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; 
+}
+
+.bodyDeconnexion {
+    background-image: url(../Image/wwe_raw.jpg) ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; 
+}
+
+.bodyAccueil {
+    background-image: url(../Image/wwe-logo.jpg) ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;  
+}
+
+.bodyPPV {
+    background-image: url(../Image/wwe_image1.jpg) ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; 
+}
+
+.bodyInscription {
+    background-image: url(../Image/WrestleMania-39-stage.jpeg) ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; 
+}
+
+.bodyResultat {
+    background-image: url(../Image/imgrésultat.jpg) ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; 
+  
+}
+
+.bodyRoster {
+    background-image: url(../Image/wwe_champion.jpg) ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; 
+}
+
+.bodyOption {
+    background-image: url(../Image/WWE_Clash_Castle1-e1667232632331.jpg) ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; 
+}
+
+.Message-Alerte-Section, .card-Message-Deconnexion-Section {
+    display: flex;
+    justify-content: center;
+}
+
+.messageAlerte {
+    color:black;
+    text-align: center;
+}
+
+.card-Message-Alerte {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 10px;
+    width: 300px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);  
+    background-color: #a2a2a2;
+}
+
+.messageDeconnexion {
+    text-align: center;
+    margin-top: 100px;
+    font-size: 30px;
+
+}
+
+
+
+
+.Connexion-Fieldset-Section h1, .Connexion-Fieldset-Section label, .Message-Deconnexion-Section h1, .Accueil-Section-Fieldset h1, .Accueil-Section-Fieldset p, .Inscription-Section h1, .Inscription-Section label, .resultat-ppv h1, .resultat-ppv h5 {
+    color:#f4f4f4;
+    text-align: center;
+}
+
+.Connexion-Fieldset-Section, .Message-Deconnexion-Section, .Accueil-Section-Fieldset, .Inscription-Section, .Section-Formulaire, .resultat-ppv{
+    display:flex;
+    justify-content: center;
+
+}
+
+.Connexion-Fieldset, .Fieldest-Message-Deconnexion, .Inscription-Fieldset, .Resultat-Fieldset {
+    width: 700px;
+    background: rgba(0, 0, 0, 0.80);
+    text-align: center;
+    margin-top: 10%;
+}
+
+.Connexion-Fieldset input, .Connexion-Fieldset button, .Inscription-Fieldset button{
+    border-radius: 5px;
+}
+
+.Connexion-Fieldset button{
+    color: black;
+    background-color: #7ae582;
+    margin-top: 20px;
+    height: 30px;
+    width: 100px;
+}
+
+.Connexion-Fieldset-Section h1, .Inscription-Section h1 {
+    font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.Message-Deconnexion-Section button {
+    background-color: #e63946;
+    color: white;
+    border-radius: 5px;
+    width: 200px;
+    height: 50px;
+}
+
+.Accueil-Section-Fieldset button {
+    background-color: #00a5cf;
+    color: white;
+    border-radius: 5px;
+    width: 200px;
+    height: 50px;
+    font-size: 15px;
+}
+
+.Accueil-Section-Fieldset h1 {
+    font-size: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.Accueil-Fieldset {
+    width: 700px;
+    background: rgba(0, 0, 0, 0.80);
+    text-align: center;
+    margin-top: 5%;
+}
+
+
+.card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-top: 150px;
+    padding: 15px;
+}
+
+
+.card-title {
+font-size: 1.25rem;
+margin-bottom: 10px;
+}
+
+.card-text {
+font-size: 1rem;
+color: #666;
+}
+
+.card-img {
+width: 100%;
+max-height: 200px;
+object-fit: cover;
+border-radius: 8px;
+}
+
+.Formulaire-Annee label, .Formulaire-Catcheur label{
+    color: #f4f4f4;
+    background-color: #ff9770;
+}
+
+.Formulaire-Annee, .Formulaire-Catcheur {
+    display: flex;
+    justify-content: center;
+}
+
+.Formulaire-Annee button, .Formulaire-Catcheur button {
+    background-color: #ff9770;
+    color: white;
+    border-radius: 5px;
+    margin-left: 5px;
+}
+
+
+.Inscription-Fieldset button {
+    background-color: #ffd670;
+    color: black;
+    border-radius: 5px;
+    height: 30px;
+    width: 100px;
+    margin-top: 20px;
+}
+ 
+
+.Section-Formulaire label{
+    background-color: #7b2cbf;
+    color: white;
+    
+}
+
+
+.Section-Formulaire button {
+    background-color: #7b2cbf;
+    color: white;
+    border-radius: 5px;
+    margin-left: 5px;
+
+}
+
+.Formulaire-Champions-Section label {
+    background-color: #db3a34;
+    color: white;
+}
+
+.Ajout-PPV-Section label, .Update-PPV-Section label, .Delete-PPV-Section label, .Ajout-Catcheur-Section label, .Update-Catcheur-Section label{
+  color: white;
+}
+
+
+.Ajout-PPV-Fieldset, .Update-PPV-Fieldset, .Delete-PPV-Fieldset, .Ajout-Catcheur-Fieldset, .Update-Catcheur-Fieldset {
+    width: 800px;
+    background: rgba(0, 0, 0, 0.80);
+    text-align: center;
+}
+
+
+.Ajout-PPV-Section, .Update-PPV-Section, .Delete-PPV-Section, .Ajout-Catcheur-Section, .Update-Catcheur-Section{
+    display:flex;
+    justify-content: center;
+}
+
+
+.Ajout-PPV-Section legend, .Update-PPV-Section legend, .Delete-PPV-Section legend, .Ajout-Catcheur-Section legend, .Update-Catcheur-Section legend {
+    color: white;
+    text-align: center;
+    font-size: 30px;
+}
+
+.Ajout-PPV-Section button, .Update-PPV-Section button, .Delete-PPV-Section button, .Ajout-Catcheur-Section button, .Update-Catcheur-Section button {
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.Ajout-PPV-Section button, .Ajout-Catcheur-Section button {
+    background-color: #40916c;
+    color: white;
+}
+
+.Update-PPV-Section button, .Update-Catcheur-Section button {
+    background-color: #f9dc5c;
+}
+
+.Delete-PPV-Section button {
+    background-color: red;
+    color: #f4f4f4;
+}
+
+@media (min-width: 769px) {
+	.header,
+	.main-nav {
+		display: flex;
+	}
+	.header {
+		flex-direction: column;
+		align-items: center;
+    	.header{
+		width: 80%;
+		margin: 0 auto;
+		max-width: 1150px;
+	}
+	}
+    .resultat-ppv {
+        margin-top: -50px;
+    }
+}
+
+@media (min-width: 1025px) {
+	.header {
+		flex-direction: row;
+		justify-content: space-between;
+	}
+
+}
+
